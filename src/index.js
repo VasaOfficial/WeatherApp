@@ -49,10 +49,10 @@ form.addEventListener('submit', e => {
   const humidityElement = document.getElementById('humidity');
   const windElement = document.getElementById('wind');
 
-  placeElement.textContent = weatherData.place;
-  tempElement.textContent = weatherData.temp + 'C';
-  humidityElement.textContent = weatherData.humidity + '%';
-  windElement.textContent = weatherData.wind.speed + 'km/h';
+  placeElement.textContent = `${weatherData.place}`;
+  tempElement.textContent = `Temperature ${weatherData.temp}C`;
+  humidityElement.textContent = `Humidity ${weatherData.humidity}%`;
+  windElement.textContent = `Wind Speed ${weatherData.wind.speed}km/h`;
   })
 })
 
