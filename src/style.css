@@ -23,7 +23,7 @@ h1 {
   font-weight: 700;
 }
 
-.search, .reset {
+input[type="submit"], .reset {
   font-size: 18px;
   width: 100px;
   background-color: #2D383A;

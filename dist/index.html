@@ -9,11 +9,17 @@
   <body>
     <h1>Weather Forcast</h1>
     <form class="form">
-      <input type="text" id="city" placeholder="Enter City" />
-      <input type="text" id="country" placeholder="Enter Country" />
-      <button class="search">Search</button>
+      <input type="text" id="city" placeholder="Enter City" required />
+      <input type="text" id="country" placeholder="Enter Country" required />
+      <input type="submit" name="submit" class="submit" value="Submit" />
       <button type="reset" class="reset">Clear</button>
     </form>
+    <div class="display">
+      <div id="place"></div>
+      <span id="temp"></span>
+      <span id="humidity"></span>
+      <span id="wind"></span>
+    </div>
     <footer>
       <a class="github-link" href="https://github.com/VasaOfficial"
         >My Github</a
